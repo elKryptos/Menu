@@ -16,7 +16,8 @@ public class Activity2 extends MainActivity{
     pulsante2.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Toast.makeText(Activity2.this, "Hai cliccato il pulsante nella seconda Activity!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Activity2.this, "Hai cliccato il pulsante nella seconda Activity!", 
+                           Toast.LENGTH_SHORT).show();
         }
     });
 

@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
               Toast.makeText(MainActivity.this, "Hai premuto il Pulsante 1", Toast.LENGTH_SHORT).show();
             }
         });
-
         Button pulsante2 = findViewById(R.id.pulsante2);
         pulsante2.setOnClickListener(new View.OnClickListener() {
             @Override
